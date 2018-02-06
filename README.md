@@ -46,3 +46,4 @@ zmqpubrawblock=tcp://youriphere:28332
 zmqpubhashtx=tcp://youriphere:28332
       
 ```
+For more info about zeromq check here -> https://github.com/myriadteam/myriadcoin/blob/master/doc/zmq.md
