@@ -1,5 +1,5 @@
 # MyriadRPCWrapper
-Myriad RPC wrapper written in java.
+Myriad RPC wrapper written in java. Use it to interact and receive live network updates from the myriadcoind server.
 
 DEPENDENCIES
 - Google gson. (For Json handling)
@@ -28,3 +28,24 @@ If you're using maven you can just paste this into your pom.xml
 ```
 
 Example usage can be seen in the Main class. 
+
+Your myriadcoin.conf file should like something like this.
+
+```
+ listen=1
+rpcuser=xxx
+rpcpassword=xx
+server=1
+rpcallowip=youriphere
+txindex=1
+daemon=1
+rpcport=10889
+adressindex=1
+timestampindex=1
+spentindex=1
+zmqpubrawtx=tcp://youriphere:28332
+zmqpubhashblock=tcp://youriphere:28332
+zmqpubrawblock=tcp://youriphere:28332
+zmqpubhashtx=tcp://youriphere:28332
+      
+```
