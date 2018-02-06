@@ -32,7 +32,7 @@ Example usage can be seen in the Main class.
 Your myriadcoin.conf file should like something like this.
 
 ```
- listen=1
+listen=1
 rpcuser=xxx
 rpcpassword=xx
 server=1
