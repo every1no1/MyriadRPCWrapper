@@ -32,17 +32,14 @@ Example usage can be seen in the Main class.
 Your myriadcoin.conf file should like something like this.
 
 ```
-listen=1
-rpcuser=xxx
-rpcpassword=xx
+listen=1 (if you want to accept incoming connections)
+rpcuser=username
+rpcpassword=password
 server=1
 rpcallowip=youriphere
 txindex=1
 daemon=1
 rpcport=10889
-adressindex=1
-timestampindex=1
-spentindex=1
 zmqpubrawtx=tcp://youriphere:28332
 zmqpubhashblock=tcp://youriphere:28332
 zmqpubrawblock=tcp://youriphere:28332
