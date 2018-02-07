@@ -1,8 +1,5 @@
 package RPCWrapper;
 
-/**
- * Created by CIA on 29/08/2017.
- */
 public class JSONRequestBody {
 
     private String method, id;
