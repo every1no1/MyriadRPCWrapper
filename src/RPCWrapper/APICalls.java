@@ -1,8 +1,5 @@
 package RPCWrapper;
 
-/**
- * Created by CIA on 29/08/2017.
- */
 public enum APICalls {
 
     GET_NEW_ADDRESS("getnewaddress"),
@@ -48,7 +45,6 @@ public enum APICalls {
 
     @Override
     public String toString() {
-        //Using in BitcoinRPC#callAPIMethod(..)
         return value;
     }
 
