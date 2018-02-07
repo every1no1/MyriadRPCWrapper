@@ -2,9 +2,6 @@ package RPCWrapper.Exception;
 
 import com.google.gson.JsonObject;
 
-/**
- * Created by CIA on 29/08/2017.
- */
 public class RpcExceptionHandler {
 
     public void checkException(JsonObject response) throws RpcException {
