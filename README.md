@@ -29,7 +29,7 @@ If you're using maven you can just paste this into your pom.xml
 
 Example usage can be seen in the Main class. 
 
-Your myriadcoin.conf file should like something like this.
+Your myriadcoin.conf file should look something like this.
 
 ```
 listen=1 (if you want to accept incoming connections)
